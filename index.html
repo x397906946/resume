@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div class="login">
+        <form action="/index" method="get">
+            <div class="username">
+                <label for="username">姓名：</label>
+                <input type="text" id="username" name="username" placeholder="用户名">
+            </div>
+            <div class="password">
+                <label for="password">密码：</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="sex">
+                <label>性别：</label>
+                <input type="radio" name="sex" value="male" checked>男
+                <input type="radio" name="sex" value="female" >女
+            </div>
+            <div class="orientation">
+                <label>取向：</label>
+                <input type="radio" name="orientation" value="male" >男
+                <input type="radio" name="orientation" value="female" checked>女
+            </div>
+            <div class="hobby">
+                <label>爱好：</label>
+                <input type="checkbox" name="hobby" value="dota" >dota
+                <input type="checkbox" name="hobby" value="travel" checked>旅游
+                <input type="checkbox" name="hobby" value="pets" checked>宠物   
+            </div>
+            <div class="textarea">
+                <label for="textarea">评论：</label>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" >ddd</textarea> 
+            </div>
+            <div class="select">
+                <label>我的car：</label> 
+                <select name="car">
+                    <option value="benz">奔驰</option>
+                    <option value="sabo"selected>萨博</option>
+                    <option value="BMW">宝马</option>
+                </select>
+                <input type="submit" value="提交">
+            </div>
+        </form>
+
+    </div>
+    <div class="select"></div> 
+</body>
+
+</html>
